@@ -1,6 +1,6 @@
-# Análisis de Ventas - AdventureWorks (Power BI)
+# <span style="color: 385FC9;">Análisis de Ventas - AdventureWorks (Power BI)</span>
 
-## <span style="color: blue;">Descripción del proyecto</span>
+## <span style="color: 5064B3;">Descripción del proyecto</span>
 Este proyecto presenta un análisis de los datos de venta de la base de datos **AdventureWork**  (Venta de bicicletas y accesorios) de Microsoft.
 Incluye dashboards interactivos para el análisis de:
 - Ventas totales.
