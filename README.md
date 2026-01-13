@@ -1,18 +1,22 @@
-# Análisis de Ventas de Adventure Works con PowerBI
+# Análisis de Ventas - AdventureWorks (Power BI)
 
 ## Descripción del proyecto
-El proyecto presenta un análisis sobre los datos de venta de la base de datos Adventure Work (Venta de bicicletas y accesorios) de Microsoft.
-Incluye dashboards de análisis de las ventas totales y crecimiento de acuerdo al período anterior (año y mes), análisis por categoría de productos y distribución georgráfica de las ventas.
+Este proyecto presenta un análisis de los datos de venta de la base de datos **AdventureWork** (Venta de bicicletas y accesorios) de Microsoft.
+Incluye dashboards interactivos para el análisis de:
+- Ventas totales.
+- Crecimiento mensual y anual.
+- Desempeño por categoría y subcategoría de productos.
+- Distribución georgráfica de las ventas.
 El proyecto fue desarrollado siguiendo los siguientes puntos:
-- Generación de vista de hechos y dimensiones (Modelo estrella)
-- Carga en PowerBI
-- Generación de dashboards
+- Construcción de vista de hechos y dimensiones (Modelo estrella)
+- Carga y modelado en Power BI
+- Creación de medidas DAX y generación de dashboards analíticos.
 
 ## Objetivos del proyecto
-- Visualizar ventas totales de los periodos disponibles (2011-2014 en curso)
-- Visualizar crecimiento anual y mensual de las ventas
-- Identificar categorías de productos más vendidas y su evolución anual.
-- Identificar las principales zonas de venta.
+- Visualizar ventas totales de los periodos disponibles (2011-2014)
+- Analizar el crecimiento anual y mensual de las ventas
+- Identificar categorías y subcategorías de productos con mayor desempeño (ventas).
+- Analizar la concentración geográfica de las ventas.
 
 ## Stack Tecnológico
 - SQL Server
@@ -20,21 +24,21 @@ El proyecto fue desarrollado siguiendo los siguientes puntos:
 - DAX
 - Git/GitHub
 
-## Modelo de datos Análitico
-Modelo estrella compuesto por lo siguiente:
-- **FactSales** Ventas realizadas (por producto y orden).
+## Modelo de datos Analítico
+Modelo basado en esquema estrella compuesto por lo siguiente:
+- **FactSales** Ventas realizadas (por línea de producto y orden).
 - **DimDate** Información complementaria de fechas.
-- **DimProduct** Información básica de productos, con categoria y subcategoría.
+- **DimProduct** Productos con categoría y subcategoría.
 - **DimTerritory** Paises con puntos de venta.
-- **DimCostumer** Información básica de clientes.
+- **DimCustumer** Información básica de clientes.
 
 ## Análisis desarrollado
-- Ventas totales (anual - mensual).
+- Ventas totales (anual y mensual).
 - Valor promedio de venta.
 - Crecimiento anual (por meses disponibles). Detalle con crecimiento mensual.
-- Ventas anuales de acuerdo a categorías de productos. (Incluye visualización por subcategoría y productos. Gráfico con jerarquía).
+- Ventas anuales por categorías, subcategorías y productos. (Jerarquía).
 - Concentración de ventas por territorio (País).
-- Análisis mensual con País de venta.
+- Análisis mensual de ventas por país.
 
 ## Vistas previas de dashboards
 <img width="1272" height="705" alt="image" src="https://github.com/user-attachments/assets/d1c51522-9c1f-4364-87ea-e37485cdcdeb" />
