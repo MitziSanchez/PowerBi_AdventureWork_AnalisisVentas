@@ -1,8 +1,8 @@
 # Análisis de Ventas de Adventure Works con PowerBI
 
 ## Descripción del proyecto
-El proyecto presenta un análisis sobre los datos de venta de la base de datos Adventure Work (Venta de biciletas y accesorios) de Microsoft.
-Incluye dashboards de análisis de las ventas totales y crecimiento, análisis por categoría de productos y distribución georgráfica de las ventas.
+El proyecto presenta un análisis sobre los datos de venta de la base de datos Adventure Work (Venta de bicicletas y accesorios) de Microsoft.
+Incluye dashboards de análisis de las ventas totales y crecimiento de acuerdo al período anterior (año y mes), análisis por categoría de productos y distribución georgráfica de las ventas.
 El proyecto fue desarrollado siguiendo los siguientes puntos:
 - Generación de vista de hechos y dimensiones (Modelo estrella)
 - Carga en PowerBI
@@ -21,10 +21,10 @@ El proyecto fue desarrollado siguiendo los siguientes puntos:
 - Git/GitHub
 
 ## Modelo de datos Análitico
-Modelo estrella diseñado para análisis.
-- **FactSales** Ventas realizadas ( por producto y orden).
-- **DimDate** Detalle de fechas.
-- **DimProduct** Detalle de productos, con categoria y subcategoría.
+Modelo estrella compuesto por lo siguiente:
+- **FactSales** Ventas realizadas (por producto y orden).
+- **DimDate** Información complementaria de fechas.
+- **DimProduct** Información básica de productos, con categoria y subcategoría.
 - **DimTerritory** Paises con puntos de venta.
 - **DimCostumer** Información básica de clientes.
 
@@ -32,7 +32,7 @@ Modelo estrella diseñado para análisis.
 - Ventas totales (anual - mensual).
 - Valor promedio de venta.
 - Crecimiento anual (por meses disponibles). Detalle con crecimiento mensual.
-- Ventas anuales de acuerdo a categorías de productos. (Jerarquicamente se puede revisar subcategoría y productos).
+- Ventas anuales de acuerdo a categorías de productos. (Incluye visualización por subcategoría y productos. Gráfico con jerarquía).
 - Concentración de ventas por territorio (País).
 - Análisis mensual con País de venta.
 
