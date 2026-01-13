@@ -7,6 +7,7 @@ Incluye dashboards interactivos para el análisis de:
 - Crecimiento mensual y anual.
 - Desempeño por categoría y subcategoría de productos.
 - Distribución georgráfica de las ventas.
+
 El proyecto fue desarrollado siguiendo los siguientes puntos:
 - Construcción de vista de hechos y dimensiones (Modelo estrella)
 - Carga y modelado en Power BI
