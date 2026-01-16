@@ -1,0 +1,23 @@
+
+--BD DE PRUEBA PROPORCIONADA POR MICROSOFT
+USE AdventureWorks2019
+
+--CREAR ESQUEMA PARA ORGANIZAR LO QUE SE USARA PARA LAS ESTADISTICAS (PROPIETARIO DBO)
+CREATE SCHEMA Analytics AUTHORIZATION dbo
+
+----------------------------------
+--VISTA DE HECHOS
+----------------------------------
+--VISTA DE VENTAS REALIZADAS
+CREATE VIEW Analytics.VW_FactSales AS 
+SELECT
+	SALES.SalesOrderID,
+	SALES.OrderDate,
+	SALES.CustomerID,
+	SALES.TerritoryID,
+	DETAIL_SALES.ProductID,
+	DETAIL_SALES.OrderQty,
+	DETAIL_SALES.LineTotal
+FROM [Sales].[SalesOrderHeader] AS SALES
+JOIN [Sales].[SalesOrderDetail] AS DETAIL_SALES
+ON SALES.SalesOrderID = DETAIL_SALES.SalesOrderID

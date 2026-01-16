@@ -42,6 +42,12 @@ Modelo basado en esquema estrella compuesto por lo siguiente:
 - Análisis mensual de ventas por país.
 
 ## Vistas previas de dashboards
+
+>[!NOTE]
+>
+>Dentro del proyecto puede encontrar un archivo PDF con las páginas del informe de Power BI.
+
+
 <img width="1272" height="705" alt="image" src="https://github.com/user-attachments/assets/d1c51522-9c1f-4364-87ea-e37485cdcdeb" />
 
 <img width="1268" height="712" alt="image" src="https://github.com/user-attachments/assets/923b0287-e608-46cd-8ec8-deb9b3cd5658" />
