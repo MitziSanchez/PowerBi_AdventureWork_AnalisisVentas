@@ -30,7 +30,7 @@ Modelo basado en esquema estrella compuesto por lo siguiente:
 - **FactSales** Ventas realizadas (por línea de producto y orden).
 - **DimDate** Información complementaria de fechas.
 - **DimProduct** Productos con categoría y subcategoría.
-- **DimTerritory** Paises con puntos de venta.S
+- **DimTerritory** Paises con puntos de venta.
 
 ## Análisis desarrollado
 - Ventas totales (anual y mensual).
